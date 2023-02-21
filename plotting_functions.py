@@ -1,7 +1,7 @@
 '''
 This code is a plotting reference for the examples that are shown in the paper: 
 "Overcomplete Tomography: A novel approach to imaging" by B. Turunctur, A. P. Valentine, and M. Sambridge, 
-which is going to be published in RAS Techniques and Instruments in 2023.
+submitted to RAS Techniques and Instruments in 2023.
 
 Buse Turunctur
 Research School of Earth Sciences
