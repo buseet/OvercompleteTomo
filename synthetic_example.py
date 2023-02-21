@@ -49,9 +49,8 @@ true_m_c = octomo.generate_sparse_cosine_model()
 print('The number of cosine model coefficients: ', true_m_c.shape[0])
 
 # This part should change
-with open("synth_files/inversion_output.pickle",'rb') as file:
-    lst = pickle.load(file)
-paths2D = lst['paths2D']
+with open("synth_files/paths.pickle",'rb') as file:
+    paths2D = pickle.load(file)
 
 # Create straight ray 1D kernel object from paths
 linekernel2D = octomo.straightraykernel1D(paths2D)   
